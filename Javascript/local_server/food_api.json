@@ -1,0 +1,118 @@
+
+    
+     { "Sweets": [
+        { 
+          "id":"1",
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Assorted/Mixed LoveBites"
+        },
+        {
+          "id":"2",
+          "image": "https://www.fiahomefoods.com/uploads/products/Junnu-Powder_1669036894.jpg",
+          "name": "Junnu Powder"
+        },
+        {
+          "id":"3",
+          "image": "https://www.fiahomefoods.com/uploads/products/Madurai-Ghee-Mysorepak_1632200515.jpg",
+          "name": "Madhurai Ghee Mysore Pak"
+        },
+        {
+          "id":"4",
+          "image": "https://www.fiahomefoods.com/uploads/products/ghee-honey-mysore-pak_1650353229.jpg",
+          "name": "Badam Bites"
+        },
+        {
+          "id":"5",
+          "image": "https://www.fiahomefoods.com/uploads/products/Ghee-Horlicks-Mysorepak_1632201526.jpg",
+          "name": "Strawberry Bites"
+        },
+        {
+          "id":"6",
+          "image": "https://www.fiahomefoods.com/uploads/products/Agra-Dryfruit-Halwa_1632205214.jpg",
+          "name": "Chocolate Bites"
+        },
+        {
+          "id":"7",
+          "image": "https://www.fiahomefoods.com/uploads/products/Special-Dryfruit-Halwa_1632205613.jpg",
+          "name": "Orange Bites"
+        },
+        {
+          "id":"8",
+          "image": "https://www.fiahomefoods.com/uploads/products/Kakinada-Juicy-kaza_1632205913.jpg",
+          "name": "Kesar Bites"
+        }
+      ],
+    
+    
+
+      "LoveBites": [
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "item1"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "item2"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Pista Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Badam Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Strawberry Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Chocolate Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Orange Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Kesar Bites"
+        }
+      ],
+      "Snacks": [
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "snack1"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "snack2"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Pista Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Badam Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Strawberry Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Chocolate Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Orange Bites"
+        },
+        {
+          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
+          "name": "Kesar Bites"
+        }
+      ]
+    }
+    
+  
