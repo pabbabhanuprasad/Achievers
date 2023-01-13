@@ -1,0 +1,12 @@
+.container{
+    margin-top: 30px;
+}
+label{
+    color: green;
+    margin-top: 10px;
+}
+.Form-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
