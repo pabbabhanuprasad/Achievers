@@ -1,11 +1,12 @@
 import React from "react";
+import "../Style.css/Items.css"
 // import {Routes,Route,Outlet,Link,BrowserRouter} from "react-router-dom";
-import {Link} from "react-router-dom";
-
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <div>
+      
       <div
         id="carouselExampleInterval"
         className="carousel slide"
@@ -26,8 +27,40 @@ const Home = () => {
               alt="pic2"
             />
           </div>
-          <div className="carousel-item">
-            <img src="..." className="d-block w-100" alt="..." />
+          <div className="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://www.fiahomefoods.com/uploads/banners/Slide1_1604775904.jpeg"
+              className="d-block w-100"
+              alt="pic2"
+            />
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://www.fiahomefoods.com/uploads/banners/CCC85C94-E1F6-476B-B21C-8594644B29C2_1672575954.jpeg"
+              className="d-block w-100"
+              alt="pic2"
+            />
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://www.fiahomefoods.com/uploads/banners/A68B387A-1AD6-4AAD-A242-5608485F7B5A_1613742410.jpeg"
+              className="d-block w-100"
+              alt="pic2"
+            />
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://www.fiahomefoods.com/uploads/banners/Slide1_1604775904.jpeg"
+              className="d-block w-100"
+              alt="pic2"
+            />
+          </div>
+          <div className="carousel-item" data-bs-interval="2000">
+            <img
+              src="https://www.fiahomefoods.com/uploads/banners/Slide5_1604775325.jpeg"
+              className="d-block w-100"
+              alt="pic2"
+            />
           </div>
         </div>
         <button
@@ -57,14 +90,30 @@ const Home = () => {
       </div>
 
       <div className="buttons">
-        <Link to="/Sweets" className="button2 btn btn-dark">SWEETS</Link>
-        <Link to="/LoveBites" className="button2 btn btn-dark">LOVEBITES</Link>
-        <Link to="/Snacks" className="button2 btn btn-dark">SNACKS</Link>
-        <Link to="/Masala&Podi's" className="button2 btn btn-dark">MASALA'S&PODI'S</Link>
-        <Link to="/Veg-Pickles" className="button2 btn btn-dark">VEG PICKLES</Link>
-        <Link to="/Non-Veg-Pickles" className="button2 btn btn-dark">NON VEG PICKLES</Link>
-        <Link to="/Fryums" className="button2 btn btn-dark">FRYUMS</Link>
-        <Link to="/Specials" className="button2 btn btn-dark">SPECIALS</Link>
+        <Link to="/Sweets" className="button2 btn btn-dark">
+          SWEETS
+        </Link>
+        <Link to="/LoveBites" className="button2 btn btn-dark">
+          LOVEBITES
+        </Link>
+        <Link to="/Snacks" className="button2 btn btn-dark">
+          SNACKS
+        </Link>
+        <Link to="/Masala&Podi's" className="button2 btn btn-dark">
+          MASALA'S&PODI'S
+        </Link>
+        <Link to="/Veg-Pickles" className="button2 btn btn-dark">
+          VEG PICKLES
+        </Link>
+        <Link to="/Non-Veg-Pickles" className="button2 btn btn-dark">
+          NON VEG PICKLES
+        </Link>
+        <Link to="/Fryums" className="button2 btn btn-dark">
+          FRYUMS
+        </Link>
+        <Link to="/Specials" className="button2 btn btn-dark">
+          SPECIALS
+        </Link>
       </div>
       <div>
         <div>

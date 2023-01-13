@@ -1,84 +1,100 @@
 import React from "react";
 import { useEffect, useState } from "react";
+import "../Style.css/Items.css";
+
 
 const Sweets = () => {
   const [food, setData] = useState([]);
   const myStyle = {
     width: "100%",
-    height: "150px",
+    height: "200px",
   };
+
   const Sweets = async () => {
     let response = await (await fetch("http://localhost:3002/Sweets")).json();
     console.log(response);
     setData(response);
   };
 
-  
-
   useEffect(() => {
     Sweets();
   }, []);
-
-  return (
-    <>
+  const [data, set1Data] = useState({
+    price: "600rs",
+  });
+  const handleChange = (e) => {
+    let updateValue = { ...data };
+    updateValue[e.target.name] = e.target.value;
+    set1Data(updateValue);
+  };
+  
+    return (
+    <div className="grid-container">
       {food.map((ele, i) => (
-        <div key={i} style={{ width: "15%", heigth: "500px" }}>
-          <img src={ele.image} style={myStyle}></img>
-          <p
-            style={{
-              width: "100%",
-              backgroundColor: "orange",
-              height: "30px",
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <label style={{ color: "white" }}>{ele.name}</label>
-          </p>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              flexDirection: "column",
-            }}
-          >
-            <div>
-              <input type="radio"></input>
-              <lable>250Gms-Rs 600</lable>
-            </div>
-            <div>
-              <input type="radio"></input>
-              <lable>500Gms-Rs 1,200</lable>
-            </div>
-            <div>
-              <input type="radio"></input>
-              <lable>1 Kg-Rs 2,000</lable>
-            </div>
+        <div key={i} className="card">
+          <div className="grid-item grid-item1">
+            <img src={ele.image} style={myStyle}></img>
           </div>
-          <div>MRP : 700</div>
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              justifyContent: "center",
-              flexDirection: "horizontal",
-            }}
-          >
-            <p>QTY</p>
-            <button>-</button>
-            <p>1</p>
-            <button>+</button>
-            <button>ADD</button>
-          </div>
-          <div>
-            <button>View more</button>
+          <div className="grid-item grid-item2">
+            <div className="para">
+              <p>
+                <label style={{ color: "white" }}>{ele.name}</label>
+              </p>
+            </div>
+            <div className="secondPart">
+              <div>
+                <input
+                  type="radio"
+                  name="price"
+                  checked={data.price == "600rs"}
+                  value={"250rs"}
+                  onChange={(e) => {
+                    handleChange(e);
+                  }}
+                ></input>
+                <lable>{ele.price[0]}</lable>
+              </div>
+
+              <div>
+                <input
+                  type="radio"
+                  name="price"
+                  value={"1,200rs"}
+                  onChange={(e) => {
+                    handleChange(e);
+                  }}
+                ></input>
+                <lable>{ele.price[1]}</lable>
+              </div>
+              <div>
+                <input
+                  type="radio"
+                  name="price"
+                  value={"2,000rs"}
+                  onChange={(e) => {
+                    handleChange(e);
+                  }}
+                ></input>
+                <lable>{ele.price[2]}</lable>
+              </div>
+
+              <div>MRP:</div>
+              <div className="quantity">
+                <p>QTY</p>
+                <button className="minus">-</button>
+                <p>1</p>
+                <button className="plus">+</button>
+                <button className="add">ADD</button>
+              </div>
+              <div>
+                <button className="viewMore">View more</button>
+              </div>
+            </div>
           </div>
         </div>
       ))}
-    </>
-  );
+    </div>
+    );
 };
 
 export default Sweets;

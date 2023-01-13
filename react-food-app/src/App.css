@@ -1,3 +1,58 @@
+.marquee {
+  width: "120%";
+  direction: "right";
+  height: "60px";
+  background-color: black;
+  padding-top: 8px;
+  color:white;
+}
+
+.btn {
+  margin-top: 20px;
+  margin-left: 30px;
+  background-color: orangered;
+  width: 200px;
+}
+/* .grid-container {
+  gap:20px;
+  display:grid;
+  
+  grid-template-columns: 25% 25% 25% 25%;
+}
+.card{
+  border: 5px sloid black;
+  padding: 5px;
+}
+.grid-item1 img{
+  height:10px;
+  width:100%;
+}
+.LoveBites{
+  display: "flex";
+  align-items: "center";
+  justify-content: "center";
+  flex-direction: "column";
+  width: "100%";
+}
+
+.grid-item2 .para{
+  background-color: orangered;
+  text-align: center;
+  color: white;
+}
+.secondPart{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.quantity{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 /* .App {
   text-align: center;
 }
@@ -36,17 +91,13 @@
     transform: rotate(360deg);
   }
 } */
-.btn{
-  margin-top:20px;
-  margin-left: 30px;
-  background-color: orangered;
-  width:200px;
-}
-#container {
+
+/* #container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   width:50%;
-}
+} */
+
 /* .button2{
   margin-top:20px;
   margin-left: 30px;
@@ -113,4 +164,3 @@
   background-color: orangered;
   width:200px;
 } */
-

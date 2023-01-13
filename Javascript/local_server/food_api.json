@@ -4,42 +4,130 @@
         { 
           "id":"1",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Assorted/Mixed LoveBites"
+          "name": "Assorted/Mixed LoveBites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"2",
           "image": "https://www.fiahomefoods.com/uploads/products/Junnu-Powder_1669036894.jpg",
-          "name": "Junnu Powder"
+          "name": "Junnu Powder",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"3",
           "image": "https://www.fiahomefoods.com/uploads/products/Madurai-Ghee-Mysorepak_1632200515.jpg",
-          "name": "Madhurai Ghee Mysore Pak"
+          "name": "Madhurai Ghee Mysore Pak",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"4",
           "image": "https://www.fiahomefoods.com/uploads/products/ghee-honey-mysore-pak_1650353229.jpg",
-          "name": "Badam Bites"
+          "name": "Ghee Honey Mysore Pak",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"5",
           "image": "https://www.fiahomefoods.com/uploads/products/Ghee-Horlicks-Mysorepak_1632201526.jpg",
-          "name": "Strawberry Bites"
+          "name": "Ghee Horlicks Mysore Pak",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"6",
           "image": "https://www.fiahomefoods.com/uploads/products/Agra-Dryfruit-Halwa_1632205214.jpg",
-          "name": "Chocolate Bites"
+          "name": "Agra Dry Fruit Halwa",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"7",
           "image": "https://www.fiahomefoods.com/uploads/products/Special-Dryfruit-Halwa_1632205613.jpg",
-          "name": "Orange Bites"
+          "name": "Special Dry fruit Halwa",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
           "id":"8",
           "image": "https://www.fiahomefoods.com/uploads/products/Kakinada-Juicy-kaza_1632205913.jpg",
-          "name": "Kesar Bites"
+          "name": "Kakinada Juisy Kaja",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        { 
+          "id":"9",
+          "image": "https://www.fiahomefoods.com/uploads/products/Badam-Burfi_1632206186.jpg",
+          "name": "Badam Burfi",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"10",
+          "image": "https://www.fiahomefoods.com/uploads/products/ice-cream-brafi_1658831260.jpg",
+          "name": "Ice Cream Burfi",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"11",
+          "image": "https://www.fiahomefoods.com/uploads/products/Bellam-Sticks_1632206843.jpg",
+          "name": "Bellam Sticks",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"12",
+          "image": "https://www.fiahomefoods.com/uploads/products/Ghee%20Soan%20Papdi_1633506041.jpeg",
+          "name": "Ghee Soan Papidi",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"13",
+          "image": "https://www.fiahomefoods.com/uploads/products/Diamond-Biscut-Sweet_1633508784.jpeg",
+          "name": "Diamond Biscuit",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"14",
+          "image": "https://www.fiahomefoods.com/uploads/products/Bellam-Chalimidi_1633623534.jpg",
+          "name": "Bellam Chalimidi",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"15",
+          "image": "https://www.fiahomefoods.com/uploads/products/sugar-chalimidi-fia_1658831202.jpg",
+          "name": "Sugar Chalimidi",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
+        },
+        {
+          "id":"16",
+          "image": "https://www.fiahomefoods.com/uploads/products/rajasthan-laddu-fia_1666271308.jpg",
+          "name": "Rajasthan Laddu",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         }
       ],
     
@@ -47,70 +135,236 @@
 
       "LoveBites": [
         {
+          "id":"1",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "item1"
+          "name": "item1",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"2",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "item2"
+          "name": "item2",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"3",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Pista Bites"
+          "name": "Pista Bites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"4",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Badam Bites"
+          "name": "Badam Bites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"5",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Strawberry Bites"
+          "name": "Strawberry Bites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"6",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Chocolate Bites"
+          "name": "Chocolate Bites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"7",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Orange Bites"
+          "name": "Orange Bites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         },
         {
+          "id":"8",
           "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Kesar Bites"
+          "name": "Kesar Bites",
+          "price":[
+            "250 Gms - Rs 600","500 Gms - Rs 1,200","1Kg - Rs 2,000"
+          ]
         }
       ],
+
       "Snacks": [
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "snack1"
+          "id":"1",
+          "image": "https://www.fiahomefoods.com/uploads/products/chitti-chekkalu_1661236835.jpg",
+          "name": "Chitti Chekkalu",
+          "price":[
+            "250 Gms - Rs 288","500 Gms - Rs 513","1Kg - Rs 863"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "snack2"
+          "id":"2",
+          "image": "https://www.fiahomefoods.com/uploads/products/Karam-Chiti-Kaza_1632198765.jpg",
+          "name": "Karam Chitti Kaja",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Pista Bites"
+          "id":"3",
+          "image": "https://www.fiahomefoods.com/uploads/products/Allam-Mirchi-Ribbon-Pakodi_1632199342.jpg",
+          "name": "Allam Mirchi Ribbon Pakodi",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Badam Bites"
+          "id":"4",
+          "image": "https://www.fiahomefoods.com/uploads/products/Pesara-Pappu-Chegodi_1632201788.jpg",
+          "name": "Pesara Pappu Chegodi",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Strawberry Bites"
+          "id":"5",
+          "image": "https://www.fiahomefoods.com/uploads/products/Royal-Navaratan--Mixture_1632203751.jpg",
+          "name": "Strawberry Bites",
+          "price":[
+            "250 Gms - Rs 313","500 Gms - Rs 538","1Kg - Rs 913"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Chocolate Bites"
+          "id":"6",
+          "image": "https://www.fiahomefoods.com/uploads/products/Sanna-Karam-Boondi_1632204022.jpg",
+          "name": "Chocolate Bites",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 913"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Orange Bites"
+          "id":"7",
+          "image": "https://www.fiahomefoods.com/uploads/products/Bezawada-Jeedipappu-Masala-Gullu_1669036695.jpg",
+          "name": "Orange Bites",
+          "price":[
+            "250 Gms - Rs 563","500 Gms - Rs 888","1Kg - Rs 1,713"
+          ]
         },
         {
-          "image": "https://www.fiahomefoods.com/uploads/products/mixed-asorted-love-bites_1662034145.jpg",
-          "name": "Kesar Bites"
+          "id":"8",
+          "image": "https://www.fiahomefoods.com/uploads/products/Bezawada-Jeedipappu-Pakodi_1632204659.jpg",
+          "name": "Kesar Bites",
+          "price":[
+            "250 Gms - Rs 463","500 Gms - Rs 488","1Kg - Rs 1,613"
+          ]
+        }
+      ],
+      "Fryums":[
+        {
+          "id":"1",
+          "image":"https://www.fiahomefoods.com/uploads/products/SaggubiyyamVadiyalu_1604052656.jpg",
+          "name":"Saggubiyyam Vadiyalu",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"2",
+          "image":"https://www.fiahomefoods.com/uploads/products/MinapaVadiyalu_1604052854.jpg",
+          "name":"Minapa Vadiyalu",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"3",
+          "image":"https://www.fiahomefoods.com/uploads/products/Biyyam_Vadiyalu_1604052976.jpg",
+          "name":"Biyyam Vadiyalu",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"4",
+          "image":"https://www.fiahomefoods.com/uploads/products/Challa_Mirapakaya_1604053112.jpg",
+          "name":"Challa Mirapakayalu",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        }
+      ],
+      "VegPickles":[
+        {
+          "id":"1",
+          "image":"https://www.fiahomefoods.com/uploads/products/avakai-fia-mango-pickle_1663418270.jpg",
+          "name":"avakai",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"2",
+          "image":"https://www.fiahomefoods.com/uploads/products/ulavacharu-fia_1666271268.jpg",
+          "name":"Ulavacharu",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"3",
+          "image":"https://www.fiahomefoods.com/uploads/products/gongura-pickle_1650344517.jpg",
+          "name":"Gongura Pickle",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"4",
+          "image":"https://www.fiahomefoods.com/uploads/products/fia-gongura-pandu-mirchi_1669873394.jpg",
+          "name":"Gongura Pandu Mirchi Pickle",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        }
+        ,
+        {
+          "id":"5",
+          "image":"https://www.fiahomefoods.com/uploads/products/fia-dondakaya-pickle_1661238052.jpg",
+          "name":"Dondakaya Pickle",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"6",
+          "image":"https://www.fiahomefoods.com/uploads/products/LEMON-PICKLE-fia_1658831280.jpg",
+          "name":"Lemon Pickle",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"7",
+          "image":"https://www.fiahomefoods.com/uploads/products/kakarakaya-pickle_1656488050.jpg",
+          "name":"Kakarakaya Pickle",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
+        },
+        {
+          "id":"8",
+          "image":"https://www.fiahomefoods.com/uploads/products/tomato-pickle_1649215065.jpg",
+          "name":"Tomato Pickle",
+          "price":[
+            "250 Gms - Rs 263","500 Gms - Rs 488","1Kg - Rs 813"
+          ]
         }
       ]
     }

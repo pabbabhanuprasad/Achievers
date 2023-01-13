@@ -1,21 +1,21 @@
 import React from "react";
 import { useEffect, useState } from "react";
 import "../Style.css/Items.css";
-const Fryums = () => {
+const VegPickles = () => {
   const [food, setData] = useState([]);
   const myStyle = {
     width: "100%",
     height: "200px",
   };
-  const Fryums = async () => {
+  const VegPickles = async () => {
     let response = await (
-      await fetch("http://localhost:3002/Fryums")
+      await fetch(" http://localhost:3002/VegPickles")
     ).json();
     console.log(response);
     setData(response);
   };
   useEffect(() => {
-    Fryums();
+    VegPickles();
   }, []);
   const [data,set1Data]=useState({
     price:"600rs",
@@ -78,4 +78,4 @@ const Fryums = () => {
   );
 };
 
-export default Fryums;
+export default VegPickles;
