@@ -23,6 +23,7 @@ const Sweets = () => {
     price: "600rs",
   });
   const handleChange = (e) => {
+    console.log(e.target.value);
     let updateValue = { ...data };
     updateValue[e.target.name] = e.target.value;
     set1Data(updateValue);
@@ -47,7 +48,7 @@ const Sweets = () => {
                   type="radio"
                   name="price"
                   checked={data.price == "600rs"}
-                  value={"250rs"}
+                  value={"600rs"}
                   onChange={(e) => {
                     handleChange(e);
                   }}
@@ -78,7 +79,7 @@ const Sweets = () => {
                 <lable>{ele.price[2]}</lable>
               </div>
 
-              <div>MRP:</div>
+              <div>MRP:{data.price}</div>
               <div className="quantity">
                 <p>QTY</p>
                 <button className="minus">-</button>
