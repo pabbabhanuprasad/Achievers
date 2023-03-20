@@ -20,7 +20,7 @@ const Snacks = () => {
     Snacks();
   }, []);
   const [data, set1Data] = useState({
-    price: "288rs",
+    price: "600rs",
   });
   const handleChange = (e) => {
     console.log(e.target.value);
@@ -47,8 +47,8 @@ const Snacks = () => {
                 <input
                   type="radio"
                   name="price"
-                  checked={data.price == "288rs"}
-                  value={"288rs"}
+                  checked={data.price == "600rs"}
+                  value={"600rs"}
                   onChange={(e) => {
                     handleChange(e);
                   }}
@@ -60,7 +60,7 @@ const Snacks = () => {
                 <input
                   type="radio"
                   name="price"
-                  value={"516rs"}
+                  value={"1,200rs"}
                   onChange={(e) => {
                     handleChange(e);
                   }}
@@ -71,7 +71,7 @@ const Snacks = () => {
                 <input
                   type="radio"
                   name="price"
-                  value={"863rs"}
+                  value={"2,000rs"}
                   onChange={(e) => {
                     handleChange(e);
                   }}

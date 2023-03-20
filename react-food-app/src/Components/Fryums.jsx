@@ -18,7 +18,7 @@ const Fryums = () => {
     Fryums();
   }, []);
   const [data,set1Data]=useState({
-    price:"600rs",
+    price:"263rs",
   })
   const handleChange=((e)=>{
     let updateValue={...data}
@@ -38,7 +38,7 @@ const Fryums = () => {
             </p>
             <div className="secondPart">
               <div>
-                <input type="radio" name="price" checked={data.price == "200rs"}
+                <input type="radio" name="price" checked={data.price == "263rs"}
                     value={"200rs"}
                     onChange={(e) => {
                       handleChange(e);
@@ -46,20 +46,20 @@ const Fryums = () => {
                 <lable>{ele.price[0]}</lable>
               </div>
               <div>
-                <input type="radio" name="price" value={"300rs"}
+                <input type="radio" name="price" value={"488rs"}
                     onChange={(e) => {
                       handleChange(e);
                     }}/>
                 <lable>{ele.price[1]}</lable>
               </div>
               <div>
-                <input type="radio" name="price" value={"300rs"}
+                <input type="radio" name="price" value={"813rs"}
                     onChange={(e) => {
                       handleChange(e);
                     }}/>
                 <lable>{ele.price[2]}</lable>
               </div>
-              <div>MRP :</div>
+              <div>MRP :{data.price}</div>
               <div className="quantity">
                 <p>QTY</p>
                 <button className="minus">-</button>
