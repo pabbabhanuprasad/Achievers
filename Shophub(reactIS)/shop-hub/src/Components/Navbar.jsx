@@ -46,7 +46,7 @@ const Navbar = () => {
                     <Link to ={"/register"} className="btn btn-outline-dark">
                     <i className="fa fa-user-plus me-1"></i>Register</Link>
                     <Link to ={"/cart"} className="btn btn-outline-dark">
-                    <i className="fa fa-shopping-cart me-1"></i>Cart (state.length)</Link>
+                    <i className="fa fa-shopping-cart me-1"></i>Cart</Link>
             </div>
           </div>
         </div>

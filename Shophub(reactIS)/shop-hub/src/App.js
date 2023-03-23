@@ -6,7 +6,7 @@ import Login from "./Components/Login";
 import Register from "./Components/Register";
 import Cart from "./Components/Cart";
 import NoMatch from "./Components/NoMatch";
-import Contact from "./Components/Contact"
+import Contact from "./Components/Contact";
 
 // import { Switch, Route } from "react-router-dom";
 import { BrowserRouter, Route, Routes } from "react-router-dom";

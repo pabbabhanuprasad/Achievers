@@ -4,17 +4,19 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/font-awesome/css/font-awesome.min.css';
-import {BrowserRouter} from 'react-router-dom';
+// import {BrowserRouter} from 'react-router-dom';
 import {Provider} from 'react-redux';
-import store from './redux/store';
+import { createStore } from 'redux';
+import { rootReducer } from "./Store/reducer";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const store = createStore(rootReducer);
 root.render(
-  <BrowserRouter>
+  
   <Provider store={store}>
       <App/>
   </Provider>
-  </BrowserRouter>
+
   
 );
 
